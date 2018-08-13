@@ -6,7 +6,7 @@ import logging
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-updater = Updater(token='671411814:AAEvJ3pmx3ZkEmHoCDnnpeedB9i7NJnehZY')
+updater = Updater(token='Token')
 dispatcher = updater.dispatcher
 createHandlers(dispatcher)
 updater.start_polling()
